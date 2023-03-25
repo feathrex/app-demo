@@ -1,0 +1,6 @@
+---
+# tasks file for demo
+- name: Install packages
+  package:
+    name: zsh
+    state: present
